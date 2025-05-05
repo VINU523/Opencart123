@@ -1,0 +1,79 @@
+13.54.41.899 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\master.xml
+
+13.54.47.338 [main]INFO  testCases.TC003_LoginTest -***TC003_LoginTest is Started***
+13.54.47.473 [main]INFO  testCases.TC003_LoginTest -Clicked on Myaccount
+13.54.47.919 [main]INFO  testCases.TC003_LoginTest -Clicked on Login Link
+13.54.48.152 [main]INFO  testCases.TC003_LoginTest -Email is Entered
+13.54.48.275 [main]INFO  testCases.TC003_LoginTest -Password is entered
+13.54.49.590 [main]INFO  testCases.TC003_LoginTest -TC003_LoginTest is finished
+13.57.48.747 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\master.xml
+
+13.57.53.182 [main]INFO  testCases.TC003_LoginTest -***TC003_LoginTest is Started***
+13.57.53.362 [main]INFO  testCases.TC003_LoginTest -Clicked on Myaccount
+13.57.53.718 [main]INFO  testCases.TC003_LoginTest -Clicked on Login Link
+13.57.53.946 [main]INFO  testCases.TC003_LoginTest -Email is Entered
+13.57.54.071 [main]INFO  testCases.TC003_LoginTest -Password is entered
+13.57.55.275 [main]INFO  testCases.TC003_LoginTest -TC003_LoginTest is finished
+14.01.52.299 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\master.xml
+
+14.01.56.527 [main]INFO  testCases.TC003_LoginTest -***TC003_LoginTest is Started***
+14.01.56.720 [main]INFO  testCases.TC003_LoginTest -Clicked on Myaccount
+14.01.57.159 [main]INFO  testCases.TC003_LoginTest -Clicked on Login Link
+14.01.57.351 [main]INFO  testCases.TC003_LoginTest -Email is Entered
+14.01.57.481 [main]INFO  testCases.TC003_LoginTest -Password is entered
+15.41.12.517 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\master.xml
+
+15.41.17.117 [main]INFO  testCases.TC003_LoginTest -***TC003_LoginTest is Started***
+15.41.18.053 [main]INFO  testCases.TC003_LoginTest -Clicked on Myaccount
+15.41.18.617 [main]INFO  testCases.TC003_LoginTest -Clicked on Login Link
+15.41.18.848 [main]INFO  testCases.TC003_LoginTest -Email is Entered
+15.41.18.980 [main]INFO  testCases.TC003_LoginTest -Password is entered
+15.41.20.552 [main]INFO  testCases.TC003_LoginTest -TC003_LoginTest is finished
+15.41.40.513 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\master.xml
+
+15.41.43.705 [main]INFO  testCases.TC003_LoginTest -***TC003_LoginTest is Started***
+15.41.44.577 [main]INFO  testCases.TC003_LoginTest -Clicked on Myaccount
+15.41.44.944 [main]INFO  testCases.TC003_LoginTest -Clicked on Login Link
+15.41.45.192 [main]INFO  testCases.TC003_LoginTest -Email is Entered
+15.41.45.417 [main]INFO  testCases.TC003_LoginTest -Password is entered
+15.41.46.801 [main]INFO  testCases.TC003_LoginTest -TC003_LoginTest is finished
+16.09.30.703 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\master.xml
+
+16.09.35.818 [main]INFO  testCases.TC003_LoginTest -***TC003_LoginTest is Started***
+16.09.36.059 [main]INFO  testCases.TC003_LoginTest -Clicked on Myaccount
+16.09.36.446 [main]INFO  testCases.TC003_LoginTest -Clicked on Login Link
+16.09.36.883 [main]INFO  testCases.TC003_LoginTest -Email is Entered
+16.09.37.049 [main]INFO  testCases.TC003_LoginTest -Password is entered
+16.09.38.341 [main]INFO  testCases.TC003_LoginTest -TC003_LoginTest is finished
+16.11.38.294 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\CrossBrowser.xml
+
+16.12.13.632 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\CrossBrowser.xml
+
+16.13.11.508 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\CrossBrowser.xml
+
+16.13.16.176 [TestNG-tests-1]INFO  testCases.TC003_LoginTest -***TC003_LoginTest is Started***
+16.13.17.302 [TestNG-tests-1]INFO  testCases.TC003_LoginTest -Clicked on Myaccount
+16.13.17.755 [TestNG-tests-1]INFO  testCases.TC003_LoginTest -Clicked on Login Link
+16.13.18.008 [TestNG-tests-1]INFO  testCases.TC003_LoginTest -Email is Entered
+16.13.18.141 [TestNG-tests-1]INFO  testCases.TC003_LoginTest -Password is entered
+16.13.19.406 [TestNG-tests-1]INFO  testCases.TC003_LoginTest -TC003_LoginTest is finished
+16.15.44.634 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\Grouping.xml
+
+16.16.26.528 [main]INFO  org.testng.internal.Utils -[TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\CrossBrowser.xml
+
+16.16.32.713 [TestNG-tests-1]INFO  testCases.TC003_LoginTest -***TC003_LoginTest is Started***
+16.16.33.431 [TestNG-tests-1]INFO  testCases.TC003_LoginTest -Clicked on Myaccount
+16.16.34.327 [TestNG-tests-1]INFO  testCases.TC003_LoginTest -Clicked on Login Link
+16.16.35.257 [TestNG-tests-2]INFO  testCases.TC003_LoginTest -***TC003_LoginTest is Started***
+16.16.45.826 [TestNG-tests-2]INFO  testCases.TC003_LoginTest -Clicked on Myaccount

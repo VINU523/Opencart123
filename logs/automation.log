@@ -1,0 +1,12 @@
+16.56.56.689 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\master.xml
+
+16.57.33.917 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Vinod\eclipse-workspace\OC123\master.xml
+
+16.57.49.261 [main] INFO  testCases.TC003_LoginTest - ***TC003_LoginTest is Started***
+16.57.49.406 [main] INFO  testCases.TC003_LoginTest - Clicked on Myaccount
+16.57.49.776 [main] INFO  testCases.TC003_LoginTest - Clicked on Login Link
+16.57.49.981 [main] INFO  testCases.TC003_LoginTest - Email is Entered
+16.57.50.108 [main] INFO  testCases.TC003_LoginTest - Password is entered
+16.57.52.330 [main] INFO  testCases.TC003_LoginTest - TC003_LoginTest is finished
