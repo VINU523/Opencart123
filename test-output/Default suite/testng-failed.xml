@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC002_LoginDDT">
+      <class name="testCases.TC004_EndtoEndTestcase">
         <methods>
-          <include name="testLogin"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="OpenBrowser"/>
+          <include name="testEndtoEnd"/>
         </methods>
-      </class> <!-- testCases.TC002_LoginDDT -->
+      </class> <!-- testCases.TC004_EndtoEndTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,19 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-02T16:58:34 IST" name="Suite" finished-at="2025-05-02T16:58:42 IST" duration-ms="7690">
+  <suite started-at="2025-05-07T19:30:15 IST" name="Suite" finished-at="2025-05-07T19:30:44 IST" duration-ms="29397">
     <groups>
       <group name="sanity">
         <method signature="TC003_LoginTest.testLogin()[pri:0, instance:testCases.TC003_LoginTest@5a1de7fb]" name="testLogin" class="testCases.TC003_LoginTest"/>
+        <method signature="TC003_LoginTest.testLogin()[pri:0, instance:testCases.TC003_LoginTest@388526fb]" name="testLogin" class="testCases.TC003_LoginTest"/>
+        <method signature="TC003_LoginTest.testLogin()[pri:0, instance:testCases.TC003_LoginTest@7803bfd]" name="testLogin" class="testCases.TC003_LoginTest"/>
       </group> <!-- sanity -->
       <group name="Regresssion">
         <method signature="TC003_LoginTest.testLogin()[pri:0, instance:testCases.TC003_LoginTest@5a1de7fb]" name="testLogin" class="testCases.TC003_LoginTest"/>
+        <method signature="TC003_LoginTest.testLogin()[pri:0, instance:testCases.TC003_LoginTest@388526fb]" name="testLogin" class="testCases.TC003_LoginTest"/>
+        <method signature="TC003_LoginTest.testLogin()[pri:0, instance:testCases.TC003_LoginTest@7803bfd]" name="testLogin" class="testCases.TC003_LoginTest"/>
       </group> <!-- Regresssion -->
     </groups>
-    <test started-at="2025-05-02T16:58:34 IST" name="ChromeTest" finished-at="2025-05-02T16:58:42 IST" duration-ms="7690">
+    <test started-at="2025-05-07T19:30:15 IST" name="FireFoxTest" finished-at="2025-05-07T19:30:32 IST" duration-ms="17156">
       <class name="testCases.TC003_LoginTest">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTest@5a1de7fb]" started-at="2025-05-02T16:58:35 IST" name="OpenBrowser" finished-at="2025-05-02T16:58:39 IST" duration-ms="4544" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTest@7803bfd]" started-at="2025-05-07T19:30:15 IST" name="OpenBrowser" finished-at="2025-05-07T19:30:28 IST" duration-ms="12215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC003_LoginTest@7803bfd]" started-at="2025-05-07T19:30:28 IST" name="testLogin" finished-at="2025-05-07T19:30:30 IST" duration-ms="2517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginTest@7803bfd]" started-at="2025-05-07T19:30:30 IST" name="tearDown" finished-at="2025-05-07T19:30:32 IST" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_LoginTest -->
+    </test> <!-- FireFoxTest -->
+    <test started-at="2025-05-07T19:30:15 IST" name="ChromeTest" finished-at="2025-05-07T19:30:34 IST" duration-ms="19333">
+      <class name="testCases.TC003_LoginTest">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTest@5a1de7fb]" started-at="2025-05-07T19:30:15 IST" name="OpenBrowser" finished-at="2025-05-07T19:30:22 IST" duration-ms="7036" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +61,169 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="testLogin()[pri:0, instance:testCases.TC003_LoginTest@5a1de7fb]" started-at="2025-05-02T16:58:39 IST" name="testLogin" finished-at="2025-05-02T16:58:42 IST" duration-ms="2321" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC003_LoginTest@5a1de7fb]" started-at="2025-05-07T19:30:22 IST" name="testLogin" finished-at="2025-05-07T19:30:34 IST" duration-ms="12051" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=136.0.3240.50)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7948fa7d058dd932133253ef17e94280, clickElement {id=f.A73AF6E1F6298CA9EB4CD2384450D4B2.d.9771261D01D28B439016B7693E0829A3.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.50, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53310}, msedge: {msedgedriverVersion: 136.0.3240.50 (4e2c41645f24..., userDataDir: C:\Users\Vinod\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53310/devtoo..., se:cdpVersion: 136.0.3240.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7948fa7d058dd932133253ef17e94280)] -> xpath: //a[normalize-space()='Login']]
+Session ID: 7948fa7d058dd932133253ef17e94280]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=136.0.3240.50)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7948fa7d058dd932133253ef17e94280, clickElement {id=f.A73AF6E1F6298CA9EB4CD2384450D4B2.d.9771261D01D28B439016B7693E0829A3.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.50, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53310}, msedge: {msedgedriverVersion: 136.0.3240.50 (4e2c41645f24..., userDataDir: C:\Users\Vinod\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53310/devtoo..., se:cdpVersion: 136.0.3240.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7948fa7d058dd932133253ef17e94280)] -> xpath: //a[normalize-space()='Login']]
+Session ID: 7948fa7d058dd932133253ef17e94280
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at pageObjects.HomePage.clickOnLogin(HomePage.java:35)
+at testCases.TC003_LoginTest.testLogin(TC003_LoginTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginTest@5a1de7fb]" started-at="2025-05-02T16:58:42 IST" name="tearDown" finished-at="2025-05-02T16:58:42 IST" duration-ms="397" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginTest@5a1de7fb]" started-at="2025-05-07T19:30:34 IST" name="tearDown" finished-at="2025-05-07T19:30:34 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_LoginTest -->
     </test> <!-- ChromeTest -->
+    <test started-at="2025-05-07T19:30:15 IST" name="EdgeTest" finished-at="2025-05-07T19:30:44 IST" duration-ms="29397">
+      <class name="testCases.TC003_LoginTest">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTest@388526fb]" started-at="2025-05-07T19:30:15 IST" name="OpenBrowser" finished-at="2025-05-07T19:30:23 IST" duration-ms="7937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC003_LoginTest@388526fb]" started-at="2025-05-07T19:30:23 IST" name="testLogin" finished-at="2025-05-07T19:30:44 IST" duration-ms="21005" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=136.0.3240.50)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7948fa7d058dd932133253ef17e94280, clickElement {id=f.A73AF6E1F6298CA9EB4CD2384450D4B2.d.9771261D01D28B439016B7693E0829A3.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.50, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53310}, msedge: {msedgedriverVersion: 136.0.3240.50 (4e2c41645f24..., userDataDir: C:\Users\Vinod\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53310/devtoo..., se:cdpVersion: 136.0.3240.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7948fa7d058dd932133253ef17e94280)] -> xpath: //a[normalize-space()='Login']]
+Session ID: 7948fa7d058dd932133253ef17e94280]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=136.0.3240.50)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7948fa7d058dd932133253ef17e94280, clickElement {id=f.A73AF6E1F6298CA9EB4CD2384450D4B2.d.9771261D01D28B439016B7693E0829A3.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.50, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53310}, msedge: {msedgedriverVersion: 136.0.3240.50 (4e2c41645f24..., userDataDir: C:\Users\Vinod\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53310/devtoo..., se:cdpVersion: 136.0.3240.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7948fa7d058dd932133253ef17e94280)] -> xpath: //a[normalize-space()='Login']]
+Session ID: 7948fa7d058dd932133253ef17e94280
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at pageObjects.HomePage.clickOnLogin(HomePage.java:35)
+at testCases.TC003_LoginTest.testLogin(TC003_LoginTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginTest@388526fb]" started-at="2025-05-07T19:30:44 IST" name="tearDown" finished-at="2025-05-07T19:30:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_LoginTest -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>

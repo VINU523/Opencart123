@@ -2,18 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-05T19:07:37 IST" name="Suite" finished-at="2025-05-05T19:07:50 IST" duration-ms="13708">
+  <suite started-at="2025-05-07T19:16:55 IST" name="Suite" finished-at="2025-05-07T19:17:05 IST" duration-ms="10666">
     <groups>
-      <group name="sanity">
-        <method signature="TC003_LoginTest.testLogin()[pri:0, instance:testCases.TC003_LoginTest@65b104b9]" name="testLogin" class="testCases.TC003_LoginTest"/>
-      </group> <!-- sanity -->
-      <group name="Regresssion">
-        <method signature="TC003_LoginTest.testLogin()[pri:0, instance:testCases.TC003_LoginTest@65b104b9]" name="testLogin" class="testCases.TC003_LoginTest"/>
-      </group> <!-- Regresssion -->
     </groups>
-    <test started-at="2025-05-05T19:07:37 IST" name="ChromeTest" finished-at="2025-05-05T19:07:50 IST" duration-ms="13708">
-      <class name="testCases.TC003_LoginTest">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTest@65b104b9]" started-at="2025-05-05T19:07:37 IST" name="OpenBrowser" finished-at="2025-05-05T19:07:47 IST" duration-ms="10293" status="PASS">
+    <test started-at="2025-05-07T19:16:55 IST" name="ChromeTest" finished-at="2025-05-07T19:17:05 IST" duration-ms="10666">
+      <class name="testCases.TC004_EndtoEndTestcase">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_EndtoEndTestcase@65b104b9]" started-at="2025-05-07T19:16:55 IST" name="OpenBrowser" finished-at="2025-05-07T19:16:59 IST" duration-ms="3859" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="testLogin()[pri:0, instance:testCases.TC003_LoginTest@65b104b9]" started-at="2025-05-05T19:07:47 IST" name="testLogin" finished-at="2025-05-05T19:07:50 IST" duration-ms="2529" status="PASS">
+        <test-method signature="testEndtoEnd()[pri:0, instance:testCases.TC004_EndtoEndTestcase@65b104b9]" started-at="2025-05-07T19:16:59 IST" name="testEndtoEnd" finished-at="2025-05-07T19:17:05 IST" duration-ms="6141" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginTest@65b104b9]" started-at="2025-05-05T19:07:50 IST" name="tearDown" finished-at="2025-05-05T19:07:50 IST" duration-ms="425" status="PASS">
+        </test-method> <!-- testEndtoEnd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_EndtoEndTestcase@65b104b9]" started-at="2025-05-07T19:17:05 IST" name="tearDown" finished-at="2025-05-07T19:17:05 IST" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC003_LoginTest -->
+      </class> <!-- testCases.TC004_EndtoEndTestcase -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

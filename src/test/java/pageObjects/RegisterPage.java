@@ -57,6 +57,7 @@ public class RegisterPage extends BasePage {
 	public  void enterPassword(String name)
 	{
 		password.sendKeys(name);
+		
 	}
 	
 	public  void enterConfirmPassword(String name)
